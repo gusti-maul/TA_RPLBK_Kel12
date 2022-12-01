@@ -1,8 +1,6 @@
-import React from 'react'
 import { Link, useNavigate } from "react-router-dom";
 import './Navbar.css';
 import { useUserAuth } from '../../context/UserAuthContext';
-import { Layer12 } from '../../img/indexImage';
 
 
 function Navbar() {
@@ -40,6 +38,9 @@ function Navbar() {
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link px-2 link-dark" to="/KoleksiBuku">Koleksi Buku</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link px-2 link-dark" to="/About">About</Link>
                                 </li>
                             </ul>
 

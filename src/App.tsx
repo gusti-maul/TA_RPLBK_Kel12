@@ -10,7 +10,7 @@ import Teknologi from './components/Teknologi/Teknologi';
 import { UserAuthContextProvider } from './context/UserAuthContext';
 
 // import Navbar from './components/Navbar/Navbar';
-import { Home, JenisBuku, KoleksiBuku, Login, Newest, ProtectedRoute, Register, } from './pages';
+import { Home, JenisBuku, KoleksiBuku, Login, Newest, ProtectedRoute, Register, About} from './pages';
 
 
 function App() {
@@ -30,6 +30,7 @@ function App() {
               <Route path="/Newest" element={<Newest />} />
               <Route path="/JenisBuku" element={<JenisBuku />} />
               <Route path="/KoleksiBuku" element={<KoleksiBuku />} />
+              <Route path="/About" element={<About />} />
               <Route path="/programming" element={<Programming />} />
               <Route path="/story" element={<Story />} />
               <Route path="/edukasi" element={<Edukasi />} />
